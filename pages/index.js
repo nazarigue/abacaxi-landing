@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
@@ -17,10 +18,10 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.js</code>
+            
+            <code className={styles.code}>Coming soon</code>
           </p>
-          <div>
+          {/* <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
               target="_blank"
@@ -34,23 +35,28 @@ export default function Home() {
                 width={100}
                 height={24}
                 priority
+                
+
               />
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/next.svg"
+            src="/abacaxi.png"
             alt="Next.js Logo"
-            width={180}
-            height={37}
+            width={200}
+            height={200}
             priority
           />
+         
         </div>
+        <code className={styles.code}>¦a-bə-kə-¦shē </code>
+        <h1 className={inter.className}>Your next report is here. Abacaxi.</h1>
 
-        <div className={styles.grid}>
+        {/* <div className={styles.grid}>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
@@ -107,7 +113,7 @@ export default function Home() {
               with&nbsp;Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
     </>
   )
